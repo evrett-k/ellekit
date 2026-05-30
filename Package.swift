@@ -25,6 +25,11 @@ let package = Package(
             name: "ellekit",
             dependencies: ["ellekitc"],
             path: "ellekit"
+        ),
+        .testTarget(
+            name: "ellekitTests",
+            dependencies: ["ellekit"],
+            path: "Tests"
         )
     ]
 )

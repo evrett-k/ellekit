@@ -11,6 +11,7 @@
 ### Requirements
 
 - A arm64 device running the XNU kernel
+- See [ARCHITECTURE_PORTING.md](./ARCHITECTURE_PORTING.md) if you want to add or swap in x86_64 support.
 
 ### Tested configurations
 

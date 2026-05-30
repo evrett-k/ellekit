@@ -5,3 +5,6 @@ launchd-hook/fishhook/*
 *.deb
 ellekit.xcodeproj/xcuserdata
 ellekit.xcodeproj/project.xcworkspace/xcuserdata
+
+# docs
+*_doc.md

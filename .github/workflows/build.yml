@@ -32,6 +32,8 @@ jobs:
             flags: "RELEASE=1"
           - name: mac
             flags: "RELEASE=1 MAC=1"
+          - name: amd64
+            flags: "RELEASE=1 AMD64=1"
 
     steps:
       - name: Checkout
